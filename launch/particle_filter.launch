@@ -1,0 +1,6 @@
+<launch>
+  <group ns="particle_filter">
+    <node pkg="particle_filter" name="input_node" type="subscriber"/>
+    <node pkg="particle_filter" name="output_node" type="publisher"/>
+  </group>
+</launch>
